@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 216, 192);
+    align-items: center;
+    min-height: auto;
+    background-image: url(/image/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.arr{
+    background: white;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    margin-left: 17rem;
+    margin-top: 5rem;
+    position: relative;
+    box-shadow: 0px 0px 0.3px 0.3px grey;
+}
+/* .arr:hover{
+    box-shadow: 0px 0px 20px 20px white;
+} */
+.arr div {
+    height: 25px;
+    width: 25px;
+    border-top: 8px solid black;
+    border-left: 8px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    /* margin-top: -90rem; */
+    margin-left: 0.8rem;
+    margin-top: 1.2rem;
+}
+.left{
+    transform: rotate(-90deg);
+}
+.container-forum{
+    background-color: rgb(255, 242, 225);
+    width: 1100px;
+    height: 1850px;
+    margin-top: -20rem;
+    margin-left: 13rem;
+}
+.search{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-top: -98rem;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 15rem;
+    padding-left: 1.5rem;
+    border: 1px;
+    color: black;
+}
+h1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding-top: 3rem;
+    padding-left: 17rem;
+}
+.image1{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain1{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 2rem;
+    margin-left: 14.5rem;
+}
+.image2{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text2{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain2{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}
+.image3{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text3{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain3{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}
+.image4{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain4{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}
+.image5{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text5{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain5{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="login.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+</head>
+<body>
+    <!-- <img src="image/background.jpg" class="img1" alt="..."> -->
+    <div class="container">
+        <div class="login">
+            <form action="" class="action" id="action">
+                <h1>Guider</h1>
+                <div class="labelling">
+                    <!-- <label for="">Email</label> -->
+                    <input class="email" type="text" placeholder="EMAIL" id="email" required>
+                    <!-- <label for="">Password</label> -->
+                    <input class="pass" type="Password" placeholder="PASSWORD" id="pass" required>
+                    <button type="submit" class="log_in"><a class="logins " href="home_after.html">Sign In</a></button>
+                    <div class="text">
+                        <p class="t1">Forget Password? |</p>
+                        <a class="log" href="register.html">Create Account</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCITiKtYzb4f7BuH5QNbBzylYJJuWNEEBM",
+          authDomain: "guider-aaa7c.firebaseapp.com",
+          projectId: "guider-aaa7c",
+          storageBucket: "guider-aaa7c.appspot.com",
+          messagingSenderId: "594684347561",
+          appId: "1:594684347561:web:0d0a59f9377800e38b15b8",
+          measurementId: "G-P0WFBQC32M"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        document.getElementById('daftarForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const nama = document.getElementById('nama').value;
+            const email = document.getElementById('email').value;
+            database.ref('pengguna/').push({
+                nama: nama,
+                email: email
+            }).then(() => {
+                alert('Data berhasil disimpan!');
+                document.getElementById('daftarForm').reset();
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        });
+
+        database.ref('pengguna/').on('value', (snapshot) => {
+            const data = snapshot.val();
+            let html = '<table border="1"><tr><th>Nama</th><th>Email</th></tr>';
+            for (let id in data) {
+                html += `<tr><td>${data[id].nama}</td><td>${data[id].email}</td></tr>`;
+            }
+            html += '</table>';
+            document.getElementById('dataPengguna').innerHTML = html;
+        });
+      </script>
+</body>
+</html>

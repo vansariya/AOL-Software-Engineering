@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 216, 192);
+    align-items: center;
+    min-height: auto;
+    /* background-image: url(image/home-background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+.type1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+    /* display: block; */
+
+}
+.type2{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+.type3{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.type{
+    margin-top: 1.8rem;
+    margin-left: -4rem;
+}
+.check{
+    list-style-type: none;
+    /* margin-top: 10rem; */
+    padding-left: 3rem;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:15px;
+    color: black;
+}
+input:checked{
+    background-color: black;
+}
+input:checked:focus,
+input:checked:hover{
+    border-color: brown;
+}
+input{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.2rem;
+}
+p{
+    text-decoration: none;
+}
+.type li{
+    position: relative;
+}
+h4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:15px;
+    padding-top: 10rem;
+    padding-left: 3rem;
+}
+p{
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    /* margin-right: rem; */
+}
+.search{    
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    height: 40px;
+    width: 30%;
+    margin-left: 20rem;
+    margin-right: 11rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.search{
+    padding-left: 1rem;
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    margin-top: rem;
+}
+img{
+    width: 40px;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+.image1{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contain1{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: -8rem;
+    margin-left: 14.5rem;
+}
+.image2{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text2{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain2{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}
+.image3{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text3{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain3{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}
+.image4{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain4{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}
+.image5{
+    width: 180px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.text5{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 16rem;
+    margin-right: 2rem;
+    margin-top: -9.5rem;
+}
+.contain5{
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}

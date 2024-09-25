@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white ;
+    align-items: center;
+    min-height: auto;
+    /* background-image: url(image/home-background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+.contain{
+    width: 100%;
+    background-color: rgb(234, 216, 192);
+    height: 90px;
+    position: fixed;
+    margin-top: -7rem;
+}
+.guide{
+    font-family: "Mitr", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: rgb(167, 146, 119);
+}
+a{
+    text-decoration: none;
+}
+.circle{
+    border-radius: 50%;
+    background-color: rgb(209, 187, 158);
+    width: 50%;
+    height: 700px;
+    margin-top: 7rem;
+    margin-left: -200px;
+}
+.images1 img{
+    margin-top: -42rem;
+    margin-left: 23rem;
+    width: 250px;
+    /* padding-top: -70rem; */
+    display: flex;
+    /* position: relative; */
+}
+img{
+    border-radius: 50%;
+    /* margin-top: -50px; */
+}
+.images2 img{
+    width: 250px;
+    margin-left: 5rem;
+}
+.images3 img{
+    width: 250px;
+    margin-left: 20rem;
+}
+h1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size:60px;
+    margin-top: -40rem;
+    margin-left: 50rem;
+    margin-bottom: 3rem;
+    color: rgb(80, 62, 62);
+}
+h3{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+    margin-left: 50rem;
+    margin-right: 3rem;
+}

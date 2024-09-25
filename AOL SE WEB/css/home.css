@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 216, 192);
+    align-items: center;
+    min-height: auto;
+    /* background-image: url(image/home-background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    /* margin-top: 6rem; */
+}
+p{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: 5rem;
+    margin-top: 0.8rem;
+    margin-right: 8rem;
+}
+.search{
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    height: 40px;
+    width: 30%;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.search{
+    padding-left: 1rem;
+}
+.login{
+    font-family: "Mitr", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 1.7rem;
+    margin-right: 3rem;
+}
+.login .log1{
+    text-decoration: none;
+    color: black;
+}
+.register{
+    font-family: "Mitr", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 1.7rem;
+    margin-right: 3rem;
+    background-color: rgb(167, 146, 119);
+    color: white;
+    text-decoration: none;
+}
+button .regist{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 150px; */
+    font-style: normal;
+    font-size: 250px;
+    color: white;
+    text-align: right;
+    margin-right: 5rem;
+    margin-top: -60rem;   
+}
+.slider{
+    /* position: relative; */
+    width: 100%;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+img{
+    margin-top: 4rem;
+    height: 1000px;
+    width: 2000px;
+    transition: all 0.15s ease;
+}
+.images input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid white 2px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 10px;
+    margin-top: -3rem;
+}
+.dots label:hover{
+    background: white;
+}
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -110%;
+}
+.nav{
+    color: white;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    width: 90%;
+    display: flexbox;
+    /* white-space: nowrap; */
+}
+h2{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    background-color: white;
+    display: flex;
+    white-space: nowrap;
+}
+.navbar1{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    box-shadow: 0 15px 15px rgb(0.5,0.5,0.5,0.1);
+}
+.navbar1 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.navbar1 p{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 20rem;
+    /* display: flex; */
+    margin-left: -10rem;
+    margin-right: 2rem;
+    /* text-align: center; */
+}
+.navbar1 h4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 17rem;
+    display: flex;
+    margin-left: -9.8rem;
+    margin-right: 2rem;
+    /* color: white; */
+}
+.home{
+    background-color: rgb(80, 62, 62);
+    width: 150px;
+    /* box-shadow: 1px solid; */
+}
+.texts{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+.skurup{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    /* color: white; */
+}
+.see-more{
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(167, 146, 119);
+    border: 1px solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: -14rem;
+}
+.see-more1{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    margin-top: 26rem;
+    margin-left: -12.5rem;
+    color: black;
+    width: 100px;
+    border: 1px solid rgb(167, 146, 119);
+}
+.navbar2{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    margin-top: -36.1rem;
+    margin-left: 27.5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    box-shadow: 0 15px 15px rgb(0.5,0.5,0.5,0.1);
+}
+.navbar2 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.navbar2 p{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 20rem;
+    display: flex;
+    margin-left: -10rem;
+    margin-right: 2rem;
+    /* text-align: center; */
+}
+.navbar2 h4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 17rem;
+    display: flex;
+    margin-left: -10rem;
+    margin-right: 2rem;
+    /* color: white; */
+}
+.home{
+    background-color: rgb(80, 62, 62);
+    width: 150px;
+    /* box-shadow: 1px solid; */
+}
+.navbar3{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    margin-top: -36.2rem;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    box-shadow: 0 15px 15px rgb(0.5,0.5,0.5,0.1);
+} 
+.navbar3 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.navbar3 p{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 20rem;
+    display: flex;
+    margin-left: -10rem;
+    margin-right: 2rem;
+    /* text-align: center; */
+}
+.navbar3 h4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 17rem;
+    display: flex;
+    margin-left: -10rem;
+    margin-right: 2rem;
+    /* color: white; */
+}
+.navbar4{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    margin-top: -36.2rem;
+    margin-left: 72.5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    box-shadow: 0 15px 15px rgb(0.5,0.5,0.5,0.1);
+} 
+.navbar4 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.navbar4 p{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 20rem;
+    display: flex;
+    margin-left: -10rem;
+    margin-right: 2rem;
+    /* text-align: center; */
+}
+.navbar4 h4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 17rem;
+    display: flex;
+    margin-left: -10rem;
+    margin-right: 2rem;
+    /* color: white; */
+}
+
+@media screen and (max-width: 476px) {
+    .navbar{
+        width: 100%;
+    }
+}

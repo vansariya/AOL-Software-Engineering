@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 216, 192) ;
+    align-items: center;
+    min-height: auto;
+    /* background-image: url(image/home-background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+.guider{
+font-family: "Mitr", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 35px;
+margin-left: 5rem;
+margin-top: 1rem;
+/* margin-right: rem; */
+}
+.search{    
+font-family: "Mitr", sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 15px;
+height: 40px;
+width: 30%;
+margin-left: 20rem;
+margin-right: 11rem;
+margin-top: 1.5rem;
+border-radius: 10px;
+border: 1px solid;
+}
+.search{
+padding-left: 1rem;
+}
+.navbar{
+display: flex;
+background-color: white;
+width: 100%;
+height: 90px;
+position: fixed;
+margin-top: -10rem;
+z-index: 900;
+}
+img{
+    width: 40px;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+.type1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+    /* display: block; */
+
+}
+.type2{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+.type3{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.type{
+    margin-top: 1.8rem;
+    margin-left: -4rem;
+}
+.arr{
+    background: white;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    position: relative;
+    box-shadow: 0px 0px 0.3px 0.3px grey;
+}
+/* .arr:hover{
+    box-shadow: 0px 0px 20px 20px white;
+} */
+.arr div {
+    height: 25px;
+    width: 25px;
+    border-top: 8px solid black;
+    border-left: 8px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    /* margin-top: -90rem; */
+    margin-left: 0.8rem;
+    margin-top: 1.2rem;
+}
+.left{
+    transform: rotate(-90deg);
+}
+.container1{
+    background-color: rgb(209, 187, 158);
+    display: flex;
+    margin-top: -10rem;
+    width: 100%;
+    height: 700px;
+}
+.img1{
+    margin-top: 5rem;
+    color: rgb(209, 187, 158);
+    width: 280px;
+    height: 280px;
+    margin-left: 10rem;
+    border-radius: 20px;
+    margin-top: 15rem;
+}
+h2{
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -34rem;
+    margin-left: 35rem;
+}
+h4{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: -rem;
+    margin-left: 35rem;
+    /* margin-right: -5rem; */
+}
+.rinci{
+    font-family: "Mitr", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    margin-top: 1rem;
+    margin-left: 35rem;
+}
+.desc-rinci{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.5rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+}
+.kel{
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 2rem;
+    margin-left: 35rem;
+}
+.desc{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.5rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+}
+.bahan{
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -21rem;
+    margin-left: 70rem;
+}
+.kap{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.5rem;
+    margin-left: 70rem;
+}
+.hr1{
+    margin-top: 0.5rem;
+    margin-left: 35rem;
+    color: black;
+    width: 350px;
+    border: 1px solid black;
+}
+.ukuran{
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 5rem;
+    margin-left: 70rem;
+}
+.maks{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.5rem;
+    margin-left: 70rem;
+}
+.tinggi{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* margin-top: 0.5rem; */
+    margin-left: 70rem;
+}
+.diameter{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* margin-top: 0.5rem; */
+    margin-left: 70rem;
+}
+.panjang{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* margin-top: 0.5rem; */
+    margin-left: 70rem;
+}
+.hr2{
+    margin-top: 0.3rem;
+    margin-left: 70rem;
+    color: black;
+    width: 350px;
+    border: 1px solid black;
+}
+.hr3{
+    margin-top: 0.3rem;
+    margin-left: 70rem;
+    color: black;
+    width: 350px;
+    border: 1px solid black;
+}
+.hr4{
+    margin-top: 0.3rem;
+    margin-left: 70rem;
+    color: black;
+    width: 350px;
+    border: 1px solid black;
+}
+.hr5{
+    margin-top: 0.3rem;
+    margin-left: 70rem;
+    color: black;
+    width: 350px;
+    border: 1px solid black;
+}
+.tampilan{
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    font-size: 20px;
+}
+.img2{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.img3{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.img4{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.img5{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.produk{
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    font-size: 20px;
+}
+.img6{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.img7{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.img8{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.img9{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
